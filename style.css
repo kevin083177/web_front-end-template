@@ -57,7 +57,6 @@ body {
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .3s;
-    color: white;
 }
 
 /* 冒號的意思是選擇虛擬類別 */
@@ -71,13 +70,17 @@ body {
 }
 .wrapper .btn1{
     background: #87A2FF;
+    color: #FFFFFF;
 }
 .wrapper .btn2{
     background: #C4D7FF;
+    color: #FFFFFF;
 }
 .wrapper .btn3{
     background: #FFD7C4;
+    color: #FFFFFF;
 }
 .wrapper .btn4{
     background: #FFF4B5;
+    color: #FFFFFF;
 }
