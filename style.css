@@ -56,7 +56,8 @@ body {
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
-    transition: all .5s;
+    transition: all .3s;
+    color: white;
 }
 
 /* 冒號的意思是選擇虛擬類別 */
@@ -64,7 +65,19 @@ body {
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #31313150;
     /* 陰影 */
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.wrapper .btn1{
+    background: #87A2FF;
+}
+.wrapper .btn2{
+    background: #C4D7FF;
+}
+.wrapper .btn3{
+    background: #FFD7C4;
+}
+.wrapper .btn4{
+    background: #FFF4B5;
 }
